@@ -40,4 +40,5 @@ IMPORTANT: Your response MUST be valid JSON matching this structure:
   "primaryHex": "Single most relevant hex recommendation based on the analysis. If multiple hexes apply, this should represent the top or best one."
 }
 
+You must only recommend hexIds that appear in the provided data. Do NOT invent or hallucinate any hexIds.
 """

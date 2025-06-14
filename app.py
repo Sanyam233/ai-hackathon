@@ -8,6 +8,7 @@ from google.genai import types
 import asyncio
 import json
 import re
+from tools.gcs import get_job_data_from_gcs
 
 load_dotenv()
 
@@ -23,19 +24,25 @@ def extract_json_from_markdown(text: str) -> dict:
 @app.route("/", methods=["POST"])
 def generate_insights():
     params = request.get_json()
-    print("HEREE", params)
     user_id, session_id = params["userId"], params["sessionId"]
     job_id, raw_query = params["jobId"], params["query"]
+    update_query = f"For the jobId={job_id} {raw_query}"
 
-    update_query = f"For the job id {job_id} {raw_query}"
+    job_data = get_job_data_from_gcs(job_id)
+    data = json.dumps(job_data["data"], indent=2)
 
-    print("IN HERE", user_id, session_id, job_id, update_query)
-    response = asyncio.run(run_agent(job_id, user_id, session_id, update_query))
-    print("HEREEE", response)
+    context = f"""
+    You are analyzing transport mobility data for job ID: {job_id}. 
+    Here is the full snapshot data to base your reasoning on:
+    {data}
+    Please now proceed to: {raw_query}
+    """
+
+    response = asyncio.run(run_agent(job_id, user_id, session_id, update_query, context))
     return send_api_response(200, response)
 
 
-async def run_agent(job_id: str, user_id: str, session_id: str, query: str) -> str:
+async def run_agent(job_id: str, user_id: str, session_id: str, query: str, context: str) -> str:
 
     # Optionally pre-fill session with context
     await session_srv.create_session(
@@ -47,11 +54,11 @@ async def run_agent(job_id: str, user_id: str, session_id: str, query: str) -> s
 
     new_message = types.Content(
         role="user",
-        parts=[types.Part(text=query)]
+        parts=[types.Part(text="Please generate your analysis and recommendation in valid JSON.")]
     )
 
     result = ""
-    for event in runner.run(user_id=user_id, session_id=session_id, new_message=new_message):
+    for event in runner.run(user_id=user_id, session_id=session_id, new_message=new_message, context=context):
         if event.is_final_response():
             print("INNNN", event.content.parts)
             result = event.content.parts[0].text
