@@ -1,0 +1,16 @@
+[
+  {
+    "stopCount": 30,
+    "vehicleCount": 11,
+    "hexId": "89283082837ffff",
+    "zoneName": "Chinatown",
+    "zoneId": "ZN-010"
+  },
+  {
+    "stopCount": 22,
+    "vehicleCount": 13,
+    "hexId": "8928308283bffff",
+    "zoneName": "Financial District",
+    "zoneId": "ZN-011"
+  }
+]

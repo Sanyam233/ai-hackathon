@@ -1,0 +1,23 @@
+[
+  {
+    "stopCount": 34,
+    "vehicleCount": 12,
+    "hexId": "89283082813ffff",
+    "zoneName": "Downtown",
+    "zoneId": "ZN-001"
+  },
+  {
+    "stopCount": 15,
+    "vehicleCount": 8,
+    "hexId": "89283082817ffff",
+    "zoneName": "Uptown",
+    "zoneId": "ZN-002"
+  },
+  {
+    "stopCount": 7,
+    "vehicleCount": 3,
+    "hexId": "8928308280bffff",
+    "zoneName": "Midtown",
+    "zoneId": "ZN-003"
+  }
+]

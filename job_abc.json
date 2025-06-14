@@ -1,0 +1,16 @@
+[
+  {
+    "stopCount": 28,
+    "vehicleCount": 10,
+    "hexId": "89283082803ffff",
+    "zoneName": "Harbor",
+    "zoneId": "ZN-004"
+  },
+  {
+    "stopCount": 21,
+    "vehicleCount": 7,
+    "hexId": "8928308280fffff",
+    "zoneName": "Old Town",
+    "zoneId": "ZN-005"
+  }
+]

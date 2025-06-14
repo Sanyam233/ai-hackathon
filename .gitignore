@@ -1,0 +1,8 @@
+__pycache__
+
+# Credentials
+gcp-dev-20250613.json
+.env
+
+# Virtual env
+.venv

@@ -1,0 +1,142 @@
+[
+  {
+    "stopCount": 22,
+    "vehicleCount": 10,
+    "hexId": "89283082813ffff",
+    "zoneName": "Downtown",
+    "zoneId": "ZN-001"
+  },
+  {
+    "stopCount": 14,
+    "vehicleCount": 8,
+    "hexId": "89283082817ffff",
+    "zoneName": "Uptown",
+    "zoneId": "ZN-002"
+  },
+  {
+    "stopCount": 5,
+    "vehicleCount": 2,
+    "hexId": "8928308280bffff",
+    "zoneName": "Midtown",
+    "zoneId": "ZN-003"
+  },
+  {
+    "stopCount": 28,
+    "vehicleCount": 15,
+    "hexId": "89283082803ffff",
+    "zoneName": "Harbor",
+    "zoneId": "ZN-004"
+  },
+  {
+    "stopCount": 16,
+    "vehicleCount": 6,
+    "hexId": "8928308280fffff",
+    "zoneName": "Old Town",
+    "zoneId": "ZN-005"
+  },
+  {
+    "stopCount": 33,
+    "vehicleCount": 17,
+    "hexId": "89283082823ffff",
+    "zoneName": "Westside",
+    "zoneId": "ZN-006"
+  },
+  {
+    "stopCount": 12,
+    "vehicleCount": 4,
+    "hexId": "89283082827ffff",
+    "zoneName": "Eastside",
+    "zoneId": "ZN-007"
+  },
+  {
+    "stopCount": 18,
+    "vehicleCount": 9,
+    "hexId": "8928308282bffff",
+    "zoneName": "South Park",
+    "zoneId": "ZN-008"
+  },
+  {
+    "stopCount": 6,
+    "vehicleCount": 3,
+    "hexId": "89283082833ffff",
+    "zoneName": "Industrial Area",
+    "zoneId": "ZN-009"
+  },
+  {
+    "stopCount": 25,
+    "vehicleCount": 14,
+    "hexId": "89283082837ffff",
+    "zoneName": "Chinatown",
+    "zoneId": "ZN-010"
+  },
+  {
+    "stopCount": 31,
+    "vehicleCount": 13,
+    "hexId": "8928308283bffff",
+    "zoneName": "Financial District",
+    "zoneId": "ZN-011"
+  },
+  {
+    "stopCount": 19,
+    "vehicleCount": 7,
+    "hexId": "8928308280dffff",
+    "zoneName": "Greenfield",
+    "zoneId": "ZN-012"
+  },
+  {
+    "stopCount": 11,
+    "vehicleCount": 5,
+    "hexId": "89283082815ffff",
+    "zoneName": "Hilltop",
+    "zoneId": "ZN-013"
+  },
+  {
+    "stopCount": 29,
+    "vehicleCount": 12,
+    "hexId": "8928308281bffff",
+    "zoneName": "Lakeside",
+    "zoneId": "ZN-014"
+  },
+  {
+    "stopCount": 4,
+    "vehicleCount": 1,
+    "hexId": "8928308281fffff",
+    "zoneName": "Back Bay",
+    "zoneId": "ZN-015"
+  },
+  {
+    "stopCount": 9,
+    "vehicleCount": 3,
+    "hexId": "8928308281dffff",
+    "zoneName": "Seaport",
+    "zoneId": "ZN-016"
+  },
+  {
+    "stopCount": 36,
+    "vehicleCount": 20,
+    "hexId": "8928308281cffff",
+    "zoneName": "City Center",
+    "zoneId": "ZN-017"
+  },
+  {
+    "stopCount": 15,
+    "vehicleCount": 8,
+    "hexId": "8928308281effff",
+    "zoneName": "Maple Heights",
+    "zoneId": "ZN-018"
+  },
+  {
+    "stopCount": 24,
+    "vehicleCount": 11,
+    "hexId": "8928308281a7fff",
+    "zoneName": "Civic Square",
+    "zoneId": "ZN-019"
+  },
+  {
+    "stopCount": 13,
+    "vehicleCount": 6,
+    "hexId": "89283082819ffff",
+    "zoneName": "Central Hill",
+    "zoneId": "ZN-020"
+  }
+]
