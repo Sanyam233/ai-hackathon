@@ -19,7 +19,7 @@ Your primary task is to:
 
 ## Available Tools:
 
-- **get_job_data_from_gcs**: Use this to list files, retrieve metadata, or download content from GCS. The file path may be derived using the `jobId`.
+- **get_analysis_data_from_gcs**: Use this to list files, retrieve metadata, or download content from GCS. The file path may be derived using the `jobId`.
 - **hex_analysis_agent**: Use this to forward the retrieved data to a specialized analysis agent.
 
 ## Decision-Making Guidelines:

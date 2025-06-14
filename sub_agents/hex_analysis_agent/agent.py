@@ -1,5 +1,5 @@
 from google.adk.agents import Agent
-from tools.gcs import get_job_data_from_gcs
+from tools.gcs import get_analysis_data_from_gcs
 from prompt import AGENT_INSTRUCTION, AGENT_DESCRIPTION
 from pydantic import BaseModel, Field
 from typing import Optional, List

@@ -25,24 +25,24 @@ def generate_insights():
     params = request.get_json()
     print("HEREE", params)
     user_id, session_id = params["userId"], params["sessionId"]
-    job_id, raw_query = params["jobId"], params["query"]
+    analysis_id, raw_query = params["analysisId"], params["query"]
 
-    update_query = f"For the job id {job_id} {raw_query}"
+    update_query = f"For the analysisId={analysis_id}, {raw_query}"
 
-    print("IN HERE", user_id, session_id, job_id, update_query)
-    response = asyncio.run(run_agent(job_id, user_id, session_id, update_query))
+    print("IN HERE", user_id, session_id, analysis_id, update_query)
+    response = asyncio.run(run_agent(analysis_id, user_id, session_id, update_query))
     print("HEREEE", response)
     return send_api_response(200, response)
 
 
-async def run_agent(job_id: str, user_id: str, session_id: str, query: str) -> str:
+async def run_agent(analysis_id: str, user_id: str, session_id: str, query: str) -> str:
 
     # Optionally pre-fill session with context
     await session_srv.create_session(
         app_name="RAG_AnalysisAnalyzer",
         user_id=user_id,
         session_id=session_id,
-        state={"job_id": job_id}
+        state={"analysis_id": analysis_id}
     )
 
     new_message = types.Content(

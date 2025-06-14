@@ -2,141 +2,121 @@
   {
     "stopCount": 22,
     "vehicleCount": 10,
-    "hexId": "89283082813ffff",
-    "zoneName": "Downtown",
-    "zoneId": "ZN-001"
+    "zoneId": "89283082813ffff",
+    "zoneName": "Downtown"
   },
   {
     "stopCount": 14,
     "vehicleCount": 8,
-    "hexId": "89283082817ffff",
-    "zoneName": "Uptown",
-    "zoneId": "ZN-002"
+    "zoneId": "89283082817ffff",
+    "zoneName": "Uptown"
   },
   {
     "stopCount": 5,
     "vehicleCount": 2,
-    "hexId": "8928308280bffff",
-    "zoneName": "Midtown",
-    "zoneId": "ZN-003"
+    "zoneId": "8928308280bffff",
+    "zoneName": "Midtown"
   },
   {
     "stopCount": 28,
     "vehicleCount": 15,
-    "hexId": "89283082803ffff",
-    "zoneName": "Harbor",
-    "zoneId": "ZN-004"
+    "zoneId": "89283082803ffff",
+    "zoneName": "Harbor"
   },
   {
     "stopCount": 16,
     "vehicleCount": 6,
-    "hexId": "8928308280fffff",
-    "zoneName": "Old Town",
-    "zoneId": "ZN-005"
+    "zoneId": "8928308280fffff",
+    "zoneName": "Old Town"
   },
   {
     "stopCount": 33,
     "vehicleCount": 17,
-    "hexId": "89283082823ffff",
-    "zoneName": "Westside",
-    "zoneId": "ZN-006"
+    "zoneId": "89283082823ffff",
+    "zoneName": "Westside"
   },
   {
     "stopCount": 12,
     "vehicleCount": 4,
-    "hexId": "89283082827ffff",
-    "zoneName": "Eastside",
-    "zoneId": "ZN-007"
+    "zoneId": "89283082827ffff",
+    "zoneName": "Eastside"
   },
   {
     "stopCount": 18,
     "vehicleCount": 9,
-    "hexId": "8928308282bffff",
-    "zoneName": "South Park",
-    "zoneId": "ZN-008"
+    "zoneId": "8928308282bffff",
+    "zoneName": "South Park"
   },
   {
     "stopCount": 6,
     "vehicleCount": 3,
-    "hexId": "89283082833ffff",
-    "zoneName": "Industrial Area",
-    "zoneId": "ZN-009"
+    "zoneId": "89283082833ffff",
+    "zoneName": "Industrial Area"
   },
   {
     "stopCount": 25,
     "vehicleCount": 14,
-    "hexId": "89283082837ffff",
-    "zoneName": "Chinatown",
-    "zoneId": "ZN-010"
+    "zoneId": "89283082837ffff",
+    "zoneName": "Chinatown"
   },
   {
     "stopCount": 31,
     "vehicleCount": 13,
-    "hexId": "8928308283bffff",
-    "zoneName": "Financial District",
-    "zoneId": "ZN-011"
+    "zoneId": "8928308283bffff",
+    "zoneName": "Financial District"
   },
   {
     "stopCount": 19,
     "vehicleCount": 7,
-    "hexId": "8928308280dffff",
-    "zoneName": "Greenfield",
-    "zoneId": "ZN-012"
+    "zoneId": "8928308280dffff",
+    "zoneName": "Greenfield"
   },
   {
     "stopCount": 11,
     "vehicleCount": 5,
-    "hexId": "89283082815ffff",
-    "zoneName": "Hilltop",
-    "zoneId": "ZN-013"
+    "zoneId": "89283082815ffff",
+    "zoneName": "Hilltop"
   },
   {
     "stopCount": 29,
     "vehicleCount": 12,
-    "hexId": "8928308281bffff",
-    "zoneName": "Lakeside",
-    "zoneId": "ZN-014"
+    "zoneId": "8928308281bffff",
+    "zoneName": "Lakeside"
   },
   {
     "stopCount": 4,
     "vehicleCount": 1,
-    "hexId": "8928308281fffff",
-    "zoneName": "Back Bay",
-    "zoneId": "ZN-015"
+    "zoneId": "8928308281fffff",
+    "zoneName": "Back Bay"
   },
   {
     "stopCount": 9,
     "vehicleCount": 3,
-    "hexId": "8928308281dffff",
-    "zoneName": "Seaport",
-    "zoneId": "ZN-016"
+    "zoneId": "8928308281dffff",
+    "zoneName": "Seaport"
   },
   {
     "stopCount": 36,
     "vehicleCount": 20,
-    "hexId": "8928308281cffff",
-    "zoneName": "City Center",
-    "zoneId": "ZN-017"
+    "zoneId": "8928308281cffff",
+    "zoneName": "City Center"
   },
   {
     "stopCount": 15,
     "vehicleCount": 8,
-    "hexId": "8928308281effff",
-    "zoneName": "Maple Heights",
-    "zoneId": "ZN-018"
+    "zoneId": "8928308281effff",
+    "zoneName": "Maple Heights"
   },
   {
     "stopCount": 24,
     "vehicleCount": 11,
-    "hexId": "8928308281a7fff",
-    "zoneName": "Civic Square",
-    "zoneId": "ZN-019"
+    "zoneId": "8928308281a7fff",
+    "zoneName": "Civic Square"
   },
   {
     "stopCount": 13,
     "vehicleCount": 6,
-    "hexId": "89283082819ffff",
-    "zoneName": "Central Hill",
-    "zoneId": "ZN-020"
+    "zoneId": "89283082819ffff",
+    "zoneName": "Central Hill"
   }
 ]
